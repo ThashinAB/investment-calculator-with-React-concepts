@@ -9,7 +9,7 @@ function App() {
     initialInvestment: 0,
     annualInvestment: 0,
     expectedReturn: 0,
-    duration: 1,
+    duration: 0,
   });
 
   const inputIsValid = userInput.duration >= 1;
