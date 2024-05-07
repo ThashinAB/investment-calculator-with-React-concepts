@@ -1,7 +1,7 @@
-
 export default function UserInput({onChange, userInput}) {
 
-    <section id="user-input">
+    return (
+        <section id="user-input">
 
         <div className="input-group">
 
@@ -52,4 +52,8 @@ export default function UserInput({onChange, userInput}) {
 
 
       </section>
+
+    )
+
+    
 }
