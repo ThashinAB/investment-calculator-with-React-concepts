@@ -1,6 +1,4 @@
 import { calculateInvestmentResults, formatter } from "../util/investment.js";
-import { useState } from "react";
-
 
 export default function Result({ input }) {
 
@@ -9,9 +7,6 @@ export default function Result({ input }) {
         resultsData[0].valueEndOfYear -
         resultsData[0].interest -
         resultsData[0].annualInvestment;
-
-
-    // console.log(initialInvestment);
 
     return (
         <table id="result">
